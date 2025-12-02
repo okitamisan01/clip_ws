@@ -1,0 +1,35 @@
+# VS Code / venv
+.vscode/
+.venv/
+.env
+.env.*
+
+# Python build / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Notebookチェックポイント
+.ipynb_checkpoints/
+
+# モデル重み / 学習生成物
+*.pth
+*.pt
+runs/
+checkpoints/
+logs/
+*.log
+
+# 大きな生データ (必要ならフォルダ名を調整)
+facefiles/
+data/
+datasets/
+
+# OS不要ファイル
+.DS_Store
+
+# その他
+tmp/
+facefiles/
